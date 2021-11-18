@@ -1,0 +1,29 @@
+///
+/// Original Sass template for liveinfo page
+///
+
+/* Actions */
+
+@media (max-width: 650px){
+    .liveinfo.gallery.style2 article:first-child{
+        margin-left: 14rem;
+    }
+    .liveinfo.gallery.style2 article:last-child{
+        margin-right: 1rem;
+    }
+}
+
+.liveinfo {
+    .inner {
+        width: initial;
+        //flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
+    }
+}
+
+
+section.style1 {
+    min-height: 100vh;
+}
+
